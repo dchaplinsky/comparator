@@ -1,4 +1,4 @@
-import names_translator
+import comparator
 
 from setuptools import setup
 from codecs import open
@@ -15,9 +15,9 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='comparator',
+    name='names_comparator',
 
-    version=names_translator.__version__,
+    version=comparator.__version__,
 
     description='Simple tool to compare almost similar names which are coming from the same source (for example list of all company owners and officers of that company). Helps to cluster together persons with a slight difference in name spelling/typos. Better suited for Cyrillic names, but should work everywhere',
     long_description=long_description,

@@ -11,7 +11,7 @@ Install from PyPI.
 
 .. code-block:: bash
 
-    $ pip install comparator
+    $ pip install names_comparator
 
 Accuracy
 ==================================
